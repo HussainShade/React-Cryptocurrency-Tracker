@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+
+.title {
+  color: #00e7ff;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.crypto-image {
+  width: 60%;
+}
+
+.table-container {
+  width: 80%;
+  border: 4px solid #00e7ff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-heading-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-container {
+  display: flex;
+}
+
+.table-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
